@@ -1,0 +1,19 @@
+body{
+    background: #515c87;
+    font-family: 'Titillium Web', sans-serif;
+}
+.home{
+   height: 75vh;
+}
+.group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #c278b8;
+    font-size: 40px;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+

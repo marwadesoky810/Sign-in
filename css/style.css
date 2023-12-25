@@ -1,0 +1,31 @@
+body{
+    background: #515c87;
+    font-family: 'Titillium Web', sans-serif;
+}
+.group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #c278b8;
+    font-size: 40px;
+}
+.group input{
+    background-color: transparent !important;
+    color: #ced4da  !important;
+}
+::placeholder{
+  color: #ced4da !important;
+}
+a{
+    text-decoration: none;
+    transition: 0.2s text-decoration;
+}
+a:hover{
+    text-decoration: underline;
+  
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+

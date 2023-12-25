@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5 text-center">
+        <div class="group m-auto w-75 p-5">
+            <h1>Smart Login System</h1>
+            <input type="text" id="signupName" class="form-control my-4 " 
+            placeholder="Enter your name" required />
+            <input type="email" id="signupEmail" class="form-control my-4 " 
+            placeholder="Enter email" required/>
+            <input type="password" id="signuppass" class="form-control my-4" 
+            placeholder="Enter password" required/>
+
+            <p id="required" class="d-none text-danger">All inputs is required</p>
+            <p id="exists" class="d-none text-danger">email already exists</p>
+            <p id="Success" class="d-none text-success">Success</p>
+            <button class="btn btn-outline-primary w-100 my-3" onclick="signUp();">Sign Up</button>
+            <p class="text-white">You have an account?
+                 <a href="../index.html" class="text-white">Signin</a>
+                </p>
+
+        </div>
+    </div>
+    
+
+    <script src="../js/signup.js"></script>
+</body>
+</html>
